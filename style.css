@@ -40,3 +40,42 @@ body {
   font-size: 13px;
   color: var(--muted);
 }
+
+#ttt-toggle,
+#ttt-reset {
+  margin-top: 16px;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--muted);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ttt-board {
+  display: grid;
+  grid-template-columns: repeat(3, 56px);
+  grid-template-rows: repeat(3, 56px);
+  gap: 4px;
+  margin: 16px auto 0;
+}
+
+.ttt-cell {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--muted);
+  cursor: pointer;
+}
+
+.ttt-cell:disabled {
+  cursor: default;
+}
+
+#ttt-status {
+  margin: 12px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}

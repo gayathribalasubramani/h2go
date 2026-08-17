@@ -10,9 +10,26 @@
   <main class="wrap">
     <p id="counter">tapped <span id="counter-value">…</span> times</p>
     <p id="notice" hidden>opened directly, so this visit doesn't count — tap the bottle for that</p>
+
+    <button id="ttt-toggle" type="button">Play tic-tac-toe</button>
+
+    <section id="ttt-game" hidden>
+      <div class="ttt-board" id="ttt-board">
+        <button class="ttt-cell" data-i="0"></button>
+        <button class="ttt-cell" data-i="1"></button>
+        <button class="ttt-cell" data-i="2"></button>
+        <button class="ttt-cell" data-i="3"></button>
+        <button class="ttt-cell" data-i="4"></button>
+        <button class="ttt-cell" data-i="5"></button>
+        <button class="ttt-cell" data-i="6"></button>
+        <button class="ttt-cell" data-i="7"></button>
+        <button class="ttt-cell" data-i="8"></button>
+      </div>
+      <p id="ttt-status"></p>
+      <button id="ttt-reset" type="button">Reset</button>
+    </section>
   </main>
 
-  <script src="config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
