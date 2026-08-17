@@ -34,3 +34,9 @@ body {
   font-size: 15px;
   color: var(--muted);
 }
+
+#notice {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
